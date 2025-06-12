@@ -1,0 +1,36 @@
+.kalkulator {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.kalkulator input {
+    display: flex;
+    width: 215px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 12px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    gap: 35px
+}
+
+.buttons {
+    margin-top: 20px;
+}
+.buttons button {
+    width: 50px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+.operator {
+    background-color: rgb(255, 187, 0);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
